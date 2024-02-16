@@ -42,7 +42,7 @@ int main() {
 }
 
 /*
-    Lesson:
+    Tips:
     - didnt need to convert the string into char array to loop the given word
     - can use switch case instead if else for optimizing the code
 */
