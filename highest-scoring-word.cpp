@@ -9,7 +9,7 @@
     earliest in the original string.
     
     For example, the score of abad is 8 (1 + 2 + 1 + 4).
-    
+
     Example: (input-->output):
     "aa b" --> "aa"
     "massage yes massage yes massage" --> "massage"
@@ -33,7 +33,7 @@ int main() {
     while (iss >> word) {
         int score = 0;
         for (char c : word) {
-            score += c - 'a' + 1;  // Calculate score for each character
+            score += c - 'a' + 1;
         }
         if (score > highestScore) {
             highestScore = score;
