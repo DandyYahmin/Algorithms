@@ -45,7 +45,6 @@ int main() {
             currentEnd = intervals[i].second;
         }
     }
-
     totalLength += currentEnd - currentStart;
     
     cout << totalLength;
