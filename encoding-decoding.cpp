@@ -74,7 +74,7 @@ string railFenceDecode(const string& text, int rails) {
 
     for (int i = 0; i < text.length(); ++i) {
         indices[i] = rail;
-        fence[rail] += '*'; // Placeholder character
+        fence[rail] += '*';
         if (rail == 0 || rail == rails - 1)
             down = !down;
         rail += down ? 1 : -1;
